@@ -5,7 +5,7 @@ def prime?(int)
   i = 5
   w = 2
   while i * i <= int
-    false if int % i == 0  
+    false if int % i == 0
     i += w
     w = 6 - w
   end
