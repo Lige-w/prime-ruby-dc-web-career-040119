@@ -7,7 +7,7 @@ def prime?(int)
   end
   i = 5
   while i * i <= int
-    if int % i == 0 || n % (i + 2) == 0
+    if int % i == 0 || int % (i + 2) == 0
       false
     end
     i += 6
