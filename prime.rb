@@ -1,5 +1,6 @@
 # Add  code here!
 def prime?(int)
+  return false if int < 1
   return true if int == 2 || int == 3
   return false if int % 2 == 0 || int % 3 == 0
   i = 5
