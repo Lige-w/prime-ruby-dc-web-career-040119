@@ -10,6 +10,6 @@ def prime?(int)
 #     w = 6 - w
 #   end
 #   true
-# end
+end
 #
 # puts prime?(6)
