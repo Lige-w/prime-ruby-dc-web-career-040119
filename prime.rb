@@ -6,11 +6,13 @@ def prime?(int)
     false
   end
   i = 5
+  w = 2
   while i * i <= int
-    if int % i == 0 || int % (i + 2) == 0
+    if int % i == 0
       false
     end
-    i += 6
+    i += w
+    w = 6 - w
   end
   true
 end
